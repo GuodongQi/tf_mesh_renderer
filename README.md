@@ -1,5 +1,5 @@
 
-Fix some bugs
+*Fix some bugs
 
 
 This is a differentiable, 3D mesh renderer using TensorFlow.
