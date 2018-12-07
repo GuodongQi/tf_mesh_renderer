@@ -29,7 +29,7 @@ const int kImageWidth = 640;
 
 std::string GetRunfilesRelativePath(const std::string& filename) {
   const std::string srcdir = std::getenv("TEST_SRCDIR");
-  const std::string test_data = "/tf_mesh_renderer/mesh_renderer/test_data/";
+  const std::string test_data = "/tf_mesh_renderer/mesh_renderer_dir/test_data/";
   return srcdir + test_data + filename;
 }
 

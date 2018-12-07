@@ -24,7 +24,7 @@ import tensorflow as tf
 
 rasterize_triangles_module = tf.load_op_library(
     os.path.join(os.environ['TEST_SRCDIR'],
-    'tf_mesh_renderer/mesh_renderer/kernels/rasterize_triangles_kernel.so'))
+    'tf_mesh_renderer/mesh_renderer_dir/kernels/rasterize_triangles_kernel.so'))
 
 
 # This epsilon should be smaller than any valid barycentric reweighting factor

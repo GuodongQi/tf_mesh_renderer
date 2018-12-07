@@ -26,6 +26,7 @@ new_local_repository(
 # GoogleTest/GoogleMock framework. Used by most unit-tests.
 http_archive(
      name = "com_google_googletest",
+     #urls = ["http://127.0.0.1/master.zip"],
      urls = ["https://github.com/google/googletest/archive/master.zip"],
      strip_prefix = "googletest-master",
 )

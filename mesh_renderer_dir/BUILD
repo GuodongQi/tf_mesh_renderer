@@ -13,8 +13,8 @@ py_test(
     size = "medium",
     srcs = ["mesh_renderer_test.py"],
     data = [
-        "//mesh_renderer/test_data:images",
-        "//mesh_renderer/kernels:rasterize_triangles_kernel",
+        "//mesh_renderer_dir/test_data:images",
+        "//mesh_renderer_dir/kernels:rasterize_triangles_kernel",
     ],
     deps = [
         ":mesh_renderer",
@@ -40,8 +40,8 @@ py_test(
     name = "rasterize_triangles_test",
     srcs = ["rasterize_triangles_test.py"],
     data = [
-        "//mesh_renderer/test_data:images",
-        "//mesh_renderer/kernels:rasterize_triangles_kernel",
+        "//mesh_renderer_dir/test_data:images",
+        "//mesh_renderer_dir/kernels:rasterize_triangles_kernel",
     ],
     deps = [
         ":camera_utils",
